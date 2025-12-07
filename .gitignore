@@ -1,0 +1,67 @@
+# --- Python general ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# --- Virtual environments ---
+env/
+venv/
+.venv/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- Data files (optional but recommended for GEO datasets) ---
+# Comment these out if you actually want to track specific data files.
+*.csv
+*.tsv
+*.txt
+*.xlsx
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.hdf5
+*.loom
+*.mtx
+
+# --- Logs ---
+*.log
+
+# --- Cache ---
+.cache/
+pip-wheel-metadata/
+__pycache__/
+*.egg-info/
+*.egg
+.eggs/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Snakemake / Nextflow / Bioinformatics tools ---
+.snakemake/
+work/
+.nextflow*
+.nf-cache/
+
+# --- Conda ---
+*.conda
+*.yaml
+*.yml
+
+# --- Temporary ---
+tmp/
+temp/
+*.tmp
+
