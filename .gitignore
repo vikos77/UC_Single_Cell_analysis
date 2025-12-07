@@ -29,7 +29,7 @@ venv/
 *.zip
 *.tar
 *.tar.gz
-*.h5
+*.h5ad
 *.hdf5
 *.loom
 *.mtx
