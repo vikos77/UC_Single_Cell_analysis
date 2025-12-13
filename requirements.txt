@@ -19,6 +19,9 @@ scikit-learn>=1.0.0
 leidenalg>=0.8.0
 igraph>=0.10.0
 
+# Data Download
+GEOparse>=2.0.0
+
 # Utilities
 h5py>=3.7.0
 tables>=3.7.0

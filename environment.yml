@@ -25,6 +25,10 @@ dependencies:
   - leidenalg>=0.8.0
   - python-igraph>=0.10.0
 
+  # Data Download
+  - pip:
+    - GEOparse>=2.0.0
+
   # Utilities
   - h5py>=3.7.0
   - pytables>=3.7.0
