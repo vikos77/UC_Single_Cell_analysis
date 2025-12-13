@@ -12,7 +12,7 @@ This project implements a complete single-cell RNA-sequencing analysis pipeline 
 
 **Key Finding:** Unsupervised clustering—blind to patient condition labels—independently separates cells into disease-specific populations, with inflammatory cell states showing >99% condition specificity. This demonstrates that inflammation creates transcriptionally distinct cell populations absent in healthy tissue.
 
-![Cell Type Annotations](scripts/figures/17_cell_type_annotations.png)
+![Cell Type Annotations](figures/17_cell_type_annotations.png)
 *Left: 17 cell types identified through marker-based annotation. Right: Same cells colored by disease condition, showing condition-specific clustering.*
 
 ---
