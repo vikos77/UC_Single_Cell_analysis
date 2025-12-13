@@ -19,20 +19,23 @@ venv/
 .vscode/
 *.code-workspace
 
-# --- Data files (optional but recommended for GEO datasets) ---
-# Comment these out if you actually want to track specific data files.
-*.csv
-*.tsv
-*.txt
-*.xlsx
-*.gz
-*.zip
-*.tar
-*.tar.gz
+# --- Data files (large datasets only) ---
+# Ignore data files in data/ directories but allow tracking small result files
 *.h5ad
 *.hdf5
 *.loom
 *.mtx
+
+# Ignore compressed raw data
+data/raw/*.gz
+data/raw/*.zip
+data/raw/*.tar
+data/raw/*.tar.gz
+data/raw/*.txt
+data/raw/*.tsv
+
+# Allow tracking of small result CSVs and metadata
+# Use git add -f if you need to force-add a specific file
 
 # --- Logs ---
 *.log
@@ -57,13 +60,17 @@ work/
 
 # --- Conda ---
 *.conda
-*.yaml
-*.yml
+# Allow environment.yml and other config files to be tracked
 
 # --- Temporary ---
 tmp/
 temp/
 *.tmp
+allfiles.txt
 
-data/
-scripts/data
+# --- Project data directories ---
+data/processed/
+data/raw/
+scripts/data/
+scripts/figures/
+scripts/results/
