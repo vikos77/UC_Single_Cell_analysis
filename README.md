@@ -8,7 +8,7 @@
 
 This project implements a complete single-cell RNA-sequencing analysis pipeline to characterize epithelial cell populations in ulcerative colitis (UC). Using publicly available data from Parikh et al. (2019), I analyze 11,000+ colonic epithelial cells across healthy and diseased tissue states to identify inflammation-specific cell populations and their transcriptional signatures.
 
-**Objective:** Build production-level Python skills in single-cell analysis while generating biologically meaningful insights into inflammatory bowel disease at cellular resolution.
+**Objective:** Characterise epithelial cell population diversity in ulcerative colitis at single-cell resolution, implementing a reproducible Scanpy-based pipeline applicable to multi-donor or atlas-scale single-cell datasets..
 
 **Key Finding:** Unsupervised clustering—blind to patient condition labels—independently separates cells into disease-specific populations, with inflammatory cell states showing >99% condition specificity. This demonstrates that inflammation creates transcriptionally distinct cell populations absent in healthy tissue.
 
@@ -191,7 +191,7 @@ scrna-seq-ulcerative-colitis/
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/scrna-seq-ulcerative-colitis.git
+git clone https://github.com/vikos77/scrna-seq-ulcerative-colitis.git
 cd scrna-seq-ulcerative-colitis
 
 # Create conda environment
@@ -260,8 +260,8 @@ leidenalg>=0.8.0
 MSc Bioinformatics | Computational Biology
 
 - Email: vigneshwaran0594@gmail.com
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- GitHub: [github.com/vikos77](https://github.com/vikos77)
+- LinkedIn: [linkedin.com/in/vigneshwaran-muthuraman](https://linkedin.com/in/vigneshwaran-muthuraman)
 
 ---
 
