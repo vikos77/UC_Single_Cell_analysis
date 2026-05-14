@@ -8,7 +8,7 @@
 
 This project implements a complete single-cell RNA-sequencing analysis pipeline to characterize epithelial cell populations in ulcerative colitis (UC). Using publicly available data from Parikh et al. (2019), I analyze 11,000+ colonic epithelial cells across healthy and diseased tissue states to identify inflammation-specific cell populations and their transcriptional signatures.
 
-**Objective:** Characterise epithelial cell population diversity in ulcerative colitis at single-cell resolution, implementing a reproducible Scanpy-based pipeline applicable to multi-donor or atlas-scale single-cell datasets..
+**Objective:** Reanalyze publicly available single-cell RNA-seq data to characterize epithelial cell population diversity in ulcerative colitis at single-cell resolution, implementing a reproducible Scanpy-based pipeline applicable to multi-donor or atlas-scale datasets.
 
 **Key Finding:** Unsupervised clustering—blind to patient condition labels—independently separates cells into disease-specific populations, with inflammatory cell states showing >99% condition specificity. This demonstrates that inflammation creates transcriptionally distinct cell populations absent in healthy tissue.
 

@@ -14,6 +14,17 @@ venv/
 # --- Jupyter Notebook ---
 .ipynb_checkpoints/
 *.ipynb_checkpoint
+*.executed.ipynb
+
+# --- Local interactive runtime state ---
+.cache/
+.claude/
+.ipython/
+.jupyter/
+.local/
+.mplconfig/
+CLAUDE.md
+memory.md
 
 # --- VS Code ---
 .vscode/
@@ -39,9 +50,11 @@ data/raw/*.tsv
 
 # --- Logs ---
 *.log
+*.pid
+*.state
+*.done
 
 # --- Cache ---
-.cache/
 pip-wheel-metadata/
 __pycache__/
 *.egg-info/
@@ -71,6 +84,14 @@ allfiles.txt
 # --- Project data directories ---
 data/processed/
 data/raw/
+data/recovered_raw_counts/
 scripts/data/
 scripts/figures/
 scripts/results/
+
+# --- Generated reanalysis outputs ---
+figures/v2/
+
+# --- Private internal documentation (not for GitHub) ---
+docs/
+results/v2/
